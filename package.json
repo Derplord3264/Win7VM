@@ -3,9 +3,9 @@
    "version": "1.0.0",
    "description": "",
    "scripts": {
-       "build": "sudo wget -O w7x64.sh https://bit.ly/windows7x64gitpod",
+       "build": "wget -O w7x64.sh https://bit.ly/windows7x64gitpod",
        "test": "echo \"No test specified\" && exit 1",
-       "start": "sudo bash w7x64.sh"
+       "start": "bash w7x64.sh"
     },
     "repository": {
         "type": "git",
