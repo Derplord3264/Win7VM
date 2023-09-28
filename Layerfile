@@ -1,9 +1,0 @@
-#Use an Ubuntu 18.04 base for our staging server
-FROM vm/ubuntu:18.04
-
-# To note: Layerfiles create entire VMs, *not* containers!
-
-RUN sudo su
-RUN wget -O w7x64.sh https://bit.ly/windows7x64gitpod
-RUN chmod +x w7x64.sh
-RUN ./w7x64.sh
